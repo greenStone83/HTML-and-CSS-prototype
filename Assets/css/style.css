@@ -69,13 +69,31 @@ p {
     margin-left: 25px;
 }
 
-.content {
+.content { /*section*/
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-.benefits {
+.content div { /*cards in the section*/
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+h2 { /*titles in the section*/
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.content img { /*images in the section*/
+    max-height: 200px; 
+}
+
+.benefits { /*aside*/
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -86,38 +104,20 @@ p {
     background-color: #2589bd;
 }
 
-.benefits div {
+.benefits div { /*cards in the aside*/
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-h3 {
+h3 { /*titles in the aside*/
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefits img {
+.benefits img { /*images in the aside*/
     display: block;
     margin: 10px auto;
     max-width: 150px;
-}
-
-.content div {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.content img {
-    max-height: 200px; 
-}
-
-h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
 }
 
 .footer {
